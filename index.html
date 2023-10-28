@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+    <link rel="icon" href="https://eaglesmp.org/icon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .project {
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s, cursor 0.3s;
+            cursor: pointer;
+        }
+
+        .project:hover {
+            transform: scale(1.025);
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Links</h1>
+        <p>Links to my cool projects</p>
+    </header>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project" onclick="window.open('https://eaglesmp.org', '_blank');">
+                <h3>EagleSMP</h3>
+                <p>An exciting Minecraft server where players soar together in a vibrant community, embarking on epic adventures and creating lasting memories.</p>
+            </div>
+            
+            <div class="project" onclick="window.open('https://tortillagames.org', '_blank');">
+                <h3>Tortilla</h3>
+                <p>The site to play all sorts of games on!</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Colbster937</p>
+    </footer>
+</body>
+</html>
